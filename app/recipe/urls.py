@@ -16,6 +16,7 @@ from recipe import views  # noqa
 router = DefaultRouter()
 router.register('recipe', views.RecipeViewSet)
 router.register('tag', views.TagViewSet)
+router.register('ingredient', views.IngredientViewSet)
 
 app_name = 'recipe'
 
